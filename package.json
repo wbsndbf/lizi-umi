@@ -7,7 +7,7 @@
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
     "test": "umi-test",
     "test:coverage": "umi-test --coverage",
-    "heroku-postbuild": "npm install && yarn build"
+    "heroku-postbuild": "npm install && npm run build"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
